@@ -1,6 +1,7 @@
 import { async } from 'regenerator-runtime/';
 import { API_URL } from './config';
 import { getJSOn } from './helper';
+import recipeView from './views/recipeView';
 
 export const state = {
   recipe: {},
@@ -25,3 +26,8 @@ export const loadRecipe = async function (id) {
     console.error(`${err} 😎😎😎`);
   }
 };
+
+const init = function () {
+  recipeView.addHandlerRender(controlRecipes);
+};
+init();
