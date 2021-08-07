@@ -1,0 +1,29 @@
+{
+  "name": "forkify",
+  "version": "1.0.0",
+  "description": "A simple recipe app",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/muhammed.mustafa.helal/forkify.git"
+  },
+  "author": "Muhammed Mustaf",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/muhammed.mustafa.helal/forkify/issues"
+  },
+  "homepage": "https://gitlab.com/muhammed.mustafa.helal/forkify#readme",
+  "devDependencies": {
+    "@parcel/transformer-image": "^2.0.0-rc.0",
+    "@parcel/transformer-sass": "^2.0.0-rc.0",
+    "parcel": "^2.0.0-rc.0",
+    "sass": "^1.37.5"
+  },
+  "dependencies": {
+    "@svgr/parcel-plugin-svgr": "^5.5.0"
+  }
+}
