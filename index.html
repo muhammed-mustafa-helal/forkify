@@ -11,7 +11,7 @@
     <link rel="shortcut icon" href="src/img/favicon.png" type="image/x-icon" />
 
     <link rel="stylesheet" href="src/sass/main.scss" />
-    <script defer src="src/js/controller.js"></script>
+    <script type="module" defer src="src/js/controller.js"></script>
 
     <title>forkify // Search over 1,000,000 recipes</title>
   </head>
@@ -73,7 +73,7 @@
                         <h4 class="preview__name">
                           Pasta with Tomato Cream ...
                         </h4>
-                        <p class="preview__publisher">The Pioneer Woman</p>
+                        <p class="preview__author">The Pioneer Woman</p>
                       </div>
                     </a>
                   </li> -->
@@ -86,8 +86,23 @@
 
       <div class="search-results">
         <ul class="results">
-          <!--  
- 
+          <!-- 
+          <li class="preview">
+            <a class="preview__link preview__link--active" href="#23456">
+              <figure class="preview__fig">
+                <img src="src/img/test-1.jpg" alt="Test" />
+              </figure>
+              <div class="preview__data">
+                <h4 class="preview__title">Pasta with Tomato Cream ...</h4>
+                <p class="preview__publisher">The Pioneer Woman</p>
+                <div class="preview__user-generated">
+                  <svg>
+                    <use href="src/img/icons.svg#icon-user"></use>
+                  </svg>
+                </div>
+              </div>
+            </a>
+          </li>
            -->
         </ul>
 
@@ -106,27 +121,7 @@
           </button> -->
         </div>
 
-        <p class="copyright">
-          &copy; Copyright by
-          <a
-            class="twitter-link"
-            target="_blank"
-            href="https://twitter.com/jonasschmedtman"
-            >Jonas Schmedtmann</a
-          >. Use for learning or your portfolio. Don't use to teach. Don't claim
-          as your own.
-        </p>
-      </div>
 
-      <div class="recipe">
-        <div class="message">
-          <div>
-            <svg>
-              <use href="src/img/icons.svg#icon-smile"></use>
-            </svg>
-          </div>
-          <p>Start by searching for a recipe or an ingredient. Have fun!</p>
-        </div>
 
         <!-- <div class="spinner">
           <svg>
@@ -248,13 +243,13 @@
         <div class="upload__column">
           <h3 class="upload__heading">Recipe data</h3>
           <label>Title</label>
-          <input value="TEST" required name="title" type="text" />
+          <input value="TEST23" required name="title" type="text" />
           <label>URL</label>
-          <input value="TEST" required name="sourceUrl" type="text" />
+          <input value="TEST23" required name="sourceUrl" type="text" />
           <label>Image URL</label>
-          <input value="TEST" required name="image" type="text" />
+          <input value="TEST23" required name="image" type="text" />
           <label>Publisher</label>
-          <input value="TEST" required name="publisher" type="text" />
+          <input value="TEST23" required name="publisher" type="text" />
           <label>Prep time</label>
           <input value="23" required name="cookingTime" type="number" />
           <label>Servings</label>

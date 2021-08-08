@@ -1,3 +1,3 @@
-# forkify
+# forkify Project
 
-A simple recipe app to train on vanilla JavaScript
+Recipe application with custom recipe uploads.
